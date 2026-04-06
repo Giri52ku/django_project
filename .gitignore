@@ -1,4 +1,29 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff
+db.sqlite3
+/static/
+staticfiles/
+media/
+
+# Environment variables
 .env
-db.sqllite3
+
+# Docker
 .dockerignore
-__pycache__
+*.log
+*.pid
+*.swp
+
+# IDE files (optional)
+.vscode/
+.idea/
+*.iml
