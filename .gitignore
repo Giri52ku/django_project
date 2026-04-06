@@ -1,0 +1,4 @@
+.env
+db.sqllite3
+.dockerignore
+__pycache__
